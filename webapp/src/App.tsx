@@ -1,15 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './App.css'
 import {  RouterProvider } from 'react-router-dom';
 import { Router } from './Routers/Router';
 
 function App() {
-  const [count, setCount] = useState<number>(0);
 
   useEffect(() => {
     const handleResize = () => {
-      setCount(window.innerWidth);
-
       if (window.innerWidth < 720) {
         console.log("yes");
       }

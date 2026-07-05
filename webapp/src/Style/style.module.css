@@ -1,12 +1,121 @@
-.main{
+.main {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.h1{
+
+.h1 {
     font-size: 33px;
     font-weight: bolder;
     color: #367aff;
+}
+
+.getstart_btn {
+    color: #fafafa;
+    background-color: #367aff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.getstart_btn:hover {
+    /* border: 1px solid #d5cdcd; */
+    cursor: pointer;
+    background-color: #2563eb;
+}
+
+.label_text {
+    padding: 10px 20px;
+    color: #1e293b;
+    font-size: .875rem;
+}
+
+.label_text:hover {
+    padding: 10px 20px;
+    color: #367aff;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+.normal_text {
+    color: rgb(100, 116, 139);
+    padding: 10px 20px;
+    font-size: .875rem;
+}
+
+.normal_text:hover {
+    color: #1e293b;
+    cursor: pointer;
+}
+
+.startfree {
+    color: white;
+    background-color: #367aff;
+    padding: 14px 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.startfree:hover {
+    background-color: #2563eb;
+}
+
+.leftback {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,
+            #3375FA 0%,
+            #3B79F6 50%,
+            #2A6AF0 100%);
+    background-color: #2563eb;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.loginName{
+    font-size: 24px;
+    color: #FAFAFA;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.subHeading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FAFAFA;
+}
+.normaltxt{
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: color-mix(in oklab, #fff 90%, transparent);
+}
+.normaltxts{
+    padding-left: 10px;
+    font-size: 16px;
+    color: color-mix(in oklab, #fff 90%, transparent);
+}
+.main_div{
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+}
+.circle_div{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: color-mix(in oklab, #fff 20%, transparent);
+}
+.circle_Click{
+    width: 8px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
 }
