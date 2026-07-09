@@ -4,7 +4,7 @@ import TestPage from '../Pages/TestPage';
 import MainPage from '../Pages/MainPage';
 
 function AppRoot() {
-    const[isdev] = useState<boolean>(false);
+    const[isdev] = useState<boolean>(true);
     return(
         <BrowserRouter>
             {
